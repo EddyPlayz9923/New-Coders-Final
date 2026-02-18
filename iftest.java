@@ -11,6 +11,10 @@ public class iftest {
     int numHumans = 6;
     boolean survive;
 
-    //Ignore this
-    public iftest(){}
+ if (income >= (numHumans + (numDogs * foodPerDog)) * foodCost) {
+    survive = true;
+} else {
+    survive = false;
+}
+
 }
