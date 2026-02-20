@@ -9,6 +9,15 @@ public class Data {
        5thVar = false;
        6thVar = 6.8;
        System.out.println(var, 2ndVar, 3rdVar, 4thVar, 5thVar, 6thVar);
-    }
+        
+        
+    { int firstVar = 9;
+     String secondVar = "that thingy";
+     char thirdVar = 'a';
+     boolean fourthVar = true;
+     boolean fifthVar = false;
+     double sixthVar = 6.8;
+
+     
     
 }
