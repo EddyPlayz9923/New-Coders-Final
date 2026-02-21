@@ -12,6 +12,9 @@ public class ForLoop {
 		public void forLoop() {
 
 			// EDIT BELOW HERE
+			 for (int i = 5; i <= 12; i++)
+				
+
 
 			for () // edit here 
 				
