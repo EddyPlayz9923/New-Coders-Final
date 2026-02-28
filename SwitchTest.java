@@ -31,7 +31,7 @@ public class SwitchTest {
         this.number = number;
         switch (number) {
             case 1:
-                color = "red";
+                color = "blue";
                 break;
 
             case 2:
@@ -39,8 +39,12 @@ public class SwitchTest {
                 break;
             
             case 3:
-                color = "white";
+                color = "grey";
                 break;
+
+            case 5:
+                color = "white"
+                break;    
 
             default:
                 System.out.println("stop being a loser and do it already");
