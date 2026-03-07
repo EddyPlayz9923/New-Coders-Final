@@ -11,13 +11,13 @@ public class Logic {
     boolean ab = a && b;
     boolean cd = !(c || d);
     boolean abe = ab && e;
-
+ 
     // Replace false in each of the following booleans with a boolean expression like those that define ab, cd, and abe
     // You must use actual boolean expressions, not just boolean values, and you must use one of each of the following: and gate, or gate, not gate
-    boolean one = false;
-    boolean two = false;
-    boolean three = false;
-    boolean four = false;
+    boolean one = ( 5 < 3 && 10 < 20);
+    boolean two = ( 1 == 1 || 2 == 3);
+    boolean three = !( 5 < 2);
+    boolean four = ( true && !false) || (10 == 0)
 
     public boolean checkCorrect() {
         if(one) { result++; }
